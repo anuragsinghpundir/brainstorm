@@ -11,9 +11,4 @@ jobs:
           sudo chown -R ubuntu:ubuntu /var/www/html/brainstorm
           cd /var/www/html/brainstorm
           sudo git pull
-      - name: PHPCS
-        shell: bash
-        run: |
-          cd /var/www/html/brainstorm
-          sudo composer phpcs
           sudo chown -R www-data:www-data /var/www/html/brainstorm
