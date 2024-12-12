@@ -15,7 +15,7 @@ jobs:
         shell: bash
         run: |
           cd /var/www/html/brainstorm
-          sudo apt install composer
+          sudo apt install composer -y
           sudo composer install
       - name: PHPCS
         shell: bash
