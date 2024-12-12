@@ -11,12 +11,6 @@ jobs:
           sudo chown -R ubuntu:ubuntu /var/www/html/brainstorm
           cd /var/www/html/brainstorm
           sudo git pull
-      - name: Install Dependencies
-        shell: bash
-        run: |
-          cd /var/www/html/brainstorm
-          sudo apt install composer -y
-          sudo composer install
       - name: PHPCS
         shell: bash
         run: |
