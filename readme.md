@@ -12,6 +12,7 @@ GTmetrix Report (A Grade, 96% Performance)
 6. Domain Name: Pointing to your server's IP address.
 
 **`IaC (Infrastructure as Code) for Provisioning of the Server on AWS`**
+
 IaC Code present in the brainstorm_IaC folder in the repo.
 ![AWS_Server](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/provisioned%20server.png)
 
@@ -69,6 +70,7 @@ WEBSITE: https://anurag.myddns.me
 ![website](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/default%20page.png)
 Default Page after Hosted on the server
 
-Test the Configuration:
-Visit: https://anurag.myddns.me.
-Tool Used: GTmetrix to evaluate performance and security
+**`Test the Configuration:`**
+
+* Visit: https://anurag.myddns.me.
+* Tool Used: GTmetrix to evaluate performance and security
