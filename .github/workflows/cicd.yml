@@ -5,10 +5,16 @@ jobs:
   deploy:
     runs-on: self-hosted   
     steps:
-      - name: Magicking 😀
+      - name: Deploy
         shell: bash
         run: |
           sudo chown -R ubuntu:ubuntu /var/www/html/brainstorm
           cd /var/www/html/brainstorm
           sudo git pull
+      - name: Code Analysis And Reporting
+        shell: bash
+        run: |
+          cd /var/www/html/brainstorm
+          phpcs -n *.php wp-content/*.php wp-admin/*.php >> error.log
+          phpcs -n --report=summary *.php wp-content/*.php wp-admin/*.php >> summary.txt
           sudo chown -R www-data:www-data /var/www/html/brainstorm
