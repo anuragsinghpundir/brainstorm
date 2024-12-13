@@ -10,12 +10,16 @@ GTmetrix Report (A Grade, 96% Performance)
 5. Certbot: Installed for managing SSL certificates.
 6. Domain Name: Pointing to your server's IP address.
 
+**`IaC (Infrastructure as Code) for Provisioning of the Server on AWS`**
+IaC Code present in the brainstorm_IaC folder in the repo.
+![AWS_Server](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/provisioned%20server.png)
+
 **`File Structure`**
 Root Directory: /var/www/html/brainstorm
 SSL Certificates:
 Certificate: /etc/letsencrypt/live/anurag.myddns.me/fullchain.pem
 Key: /etc/letsencrypt/live/anurag.myddns.me/privkey.pem
-Nginx Configuration File: /etc/nginx/sites-available/brainstorm.com - Present in the Repo nginx.conf and a Screenshot in Screenshot folder ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png)
+Nginx Configuration File: /etc/nginx/sites-available/brainstorm.com ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png)
 
 **`Key Features`**
 Gzip Compression: Reduces response size for faster page load times.
