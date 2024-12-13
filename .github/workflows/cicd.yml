@@ -15,7 +15,7 @@ jobs:
         shell: bash
         run: |
           cd /var/www/html/brainstorm
-          bash error.sh
+          phpcs -n *.php wp-content/*.php wp-admin/*.php
           sudo chown -R www-data:www-data /var/www/html/brainstorm
           
       # - name: Report Generation
