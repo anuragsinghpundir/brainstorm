@@ -15,6 +15,19 @@ GTmetrix Report (A Grade, 96% Performance)
 IaC Code present in the brainstorm_IaC folder in the repo.
 ![AWS_Server](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/provisioned%20server.png)
 
+**`Wordpress Installation`**
+
+**`Download WordPress:`**
+
+* wget https://wordpress.org/latest.tar.gz
+* tar -xvf latest.tar.gz
+* sudo mv wordpress /var/www/html/brainstorm
+* sudo chown -R www-data:www-data /var/www/html/brainstorm
+* sudo chmod -R 755 /var/www/html/brainstorm
+* Configure the database for WordPress using MySQL
+* MySql Commands: create database brainstorm; create user 'brainstorm'@'localhost' identified by 'password_of_your_choice'; grant all privileges on brainstorm.* to 'brainstorm'@'localhost'; flush privileges;
+* Add database configuration to wp-config.php file
+
 **`File Structure`**
 
 Root Directory: /var/www/html/brainstorm
@@ -51,6 +64,10 @@ Reload Nginx:
 
 Obtain SSL Certificates:
 * sudo certbot --nginx -d anurag.myddns.me -d www.anurag.myddns.me
+
+WEBSITE: https://anurag.myddns.me
+![website](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/default%20page.png)
+Default Page after Hosted on the server
 
 Test the Configuration:
 Visit: https://anurag.myddns.me.
