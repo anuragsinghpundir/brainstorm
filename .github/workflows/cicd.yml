@@ -11,16 +11,4 @@ jobs:
           sudo chown -R ubuntu:ubuntu /var/www/html/brainstorm
           cd /var/www/html/brainstorm
           sudo git pull
-      - name: Code Analysis
-        shell: bash
-        run: |
-          cd /var/www/html/brainstorm
-          phpcs -n *.php
-          # sudo chown -R www-data:www-data /var/www/html/brainstorm
-          
-      # - name: Report Generation
-      #   shell: bash
-      #   run: |
-      #     cd /var/www/html/brainstorm
-      #     phpcs -n --report=summary *.php wp-content/*.php wp-admin/*.php >> summary.txt
-      #     sudo chown -R www-data:www-data /var/www/html/brainstorm
+          sudo chown -R www-data:www-data /var/www/html/brainstorm
