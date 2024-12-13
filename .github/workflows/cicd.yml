@@ -15,6 +15,6 @@ jobs:
         shell: bash
         run: |
           cd /var/www/html/brainstorm
-          phpcs -n *.php wp-content/*.php wp-admin/*.php >> error.log
-          phpcs -n --report=summary *.php wp-content/*.php wp-admin/*.php >> summary.txt
+          sudo phpcs -n *.php wp-content/*.php wp-admin/*.php >> error.log
+          sudo phpcs -n --report=summary *.php wp-content/*.php wp-admin/*.php >> summary.txt
           sudo chown -R www-data:www-data /var/www/html/brainstorm
