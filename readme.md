@@ -3,6 +3,7 @@ GTmetrix Report (A Grade, 96% Performance)
 ![GTmetrix Report (A Grade)](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/GTmetrix_Report.png?raw=true)
 
 **`Prerequisites`**
+
 1. Operating System: Ubuntu 20.04 or newer.
 2. Nginx: Installed and running.
 3. PHP: Version 8.3 with php-fpm installed.
@@ -15,6 +16,7 @@ IaC Code present in the brainstorm_IaC folder in the repo.
 ![AWS_Server](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/provisioned%20server.png)
 
 **`File Structure`**
+
 Root Directory: /var/www/html/brainstorm
 SSL Certificates:
 Certificate: /etc/letsencrypt/live/anurag.myddns.me/fullchain.pem
@@ -22,6 +24,7 @@ Key: /etc/letsencrypt/live/anurag.myddns.me/privkey.pem
 Nginx Configuration File: /etc/nginx/sites-available/brainstorm.com ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png)
 
 **`Key Features`**
+
 Gzip Compression: Reduces response size for faster page load times.
 HTTP/2: Enables faster communication between the server and the browser.
 SSL Encryption: Provides secure connections with Let's Encrypt certificates.
@@ -33,6 +36,7 @@ Security Headers:
 * Enforce a restrictive Content Security Policy.
 
 **`Deployment Steps`**
+
 Update Nginx Configuration:
 * Save the above configuration to /etc/nginx/sites-available/brainstorm.com
 
