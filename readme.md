@@ -15,7 +15,7 @@ Root Directory: /var/www/html/brainstorm
 SSL Certificates:
 Certificate: /etc/letsencrypt/live/anurag.myddns.me/fullchain.pem
 Key: /etc/letsencrypt/live/anurag.myddns.me/privkey.pem
-Nginx Configuration File: /etc/nginx/sites-available/brainstorm.com - Present in the Repo nginx.conf and a Screenshot in Screenshot folder ![nginx.conf]https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png
+Nginx Configuration File: /etc/nginx/sites-available/brainstorm.com - Present in the Repo nginx.conf and a Screenshot in Screenshot folder ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png)
 
 **`Key Features`**
 Gzip Compression: Reduces response size for faster page load times.
