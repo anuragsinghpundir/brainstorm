@@ -26,7 +26,7 @@ IaC Code present in the brainstorm_IaC folder in the repo.
 * sudo chown -R www-data:www-data /var/www/html/wordpress
 * sudo chmod -R 755 /var/www/html/wordpress
 * Configure the database for WordPress using MySQL
-* MySql Commands: create database brainstorm; create user 'wordpress_user'@'localhost' identified by 'password_of_your_choice'; grant all privileges on brainstorm.* to 'wordpress_user'@'localhost'; flush privileges;
+* MySql Commands: create database wordpress create user 'wordpress_user'@'localhost' identified by 'password_of_your_choice'; grant all privileges on brainstorm.* to 'wordpress_user'@'localhost'; flush privileges;
 * Add database configuration to wp-config.php file
 
 **`File Structure`**
@@ -52,7 +52,7 @@ Security Headers:
 **`Deployment Steps`**
 
 Update Nginx Configuration:
-* Save the above configuration to /etc/nginx/sites-available/brainstorm.com
+* Save the above configuration to /etc/nginx/sites-available/wordpress
 
 Enable the site:
 sudo ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/
