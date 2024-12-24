@@ -1,6 +1,6 @@
 GTmetrix Report (A Grade, 96% Performance)
 
-![GTmetrix Report (A Grade)](https://github.com/anuragsinghpundir/cicd_wordpress/blob/master/Screenshots/GTmetrix_Report.png?raw=true)
+![GTmetrix Report (A Grade)](https://github.com/anuragsinghpundir/ci-cd_wordpress/blob/master/Screenshots/GTmetrix_Report.png?raw=true)
 
 **`Prerequisites`**
 
