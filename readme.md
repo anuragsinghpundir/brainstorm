@@ -22,19 +22,19 @@ IaC Code present in the brainstorm_IaC folder in the repo.
 
 * wget https://wordpress.org/latest.tar.gz
 * tar -xvf latest.tar.gz
-* sudo mv wordpress /var/www/html/brainstorm
-* sudo chown -R www-data:www-data /var/www/html/brainstorm
-* sudo chmod -R 755 /var/www/html/brainstorm
+* sudo mv wordpress /var/www/html/wordpress
+* sudo chown -R www-data:www-data /var/www/html/wordpress
+* sudo chmod -R 755 /var/www/html/wordpress
 * Configure the database for WordPress using MySQL
-* MySql Commands: create database brainstorm; create user 'brainstorm'@'localhost' identified by 'password_of_your_choice'; grant all privileges on brainstorm.* to 'brainstorm'@'localhost'; flush privileges;
+* MySql Commands: create database brainstorm; create user 'wordpress_user'@'localhost' identified by 'password_of_your_choice'; grant all privileges on brainstorm.* to 'wordpress_user'@'localhost'; flush privileges;
 * Add database configuration to wp-config.php file
 
 **`File Structure`**
 
-* Root Directory: /var/www/html/brainstorm
+* Root Directory: /var/www/html/wordpress
 * Certificate: /etc/letsencrypt/live/anurag.myddns.me/fullchain.pem
 * Key: /etc/letsencrypt/live/anurag.myddns.me/privkey.pem
-* Nginx Configuration File: /etc/nginx/sites-available/brainstorm.com
+* Nginx Configuration File: /etc/nginx/sites-available/wordpress
  ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png)
 
 **`Key Features`**
@@ -55,7 +55,7 @@ Update Nginx Configuration:
 * Save the above configuration to /etc/nginx/sites-available/brainstorm.com
 
 Enable the site:
-sudo ln -s /etc/nginx/sites-available/brainstorm.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/
 
 Check Configuration:
 * sudo nginx -t
