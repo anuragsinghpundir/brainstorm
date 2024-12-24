@@ -1,6 +1,6 @@
 GTmetrix Report (A Grade, 96% Performance)
 
-![GTmetrix Report (A Grade)](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/GTmetrix_Report.png?raw=true)
+![GTmetrix Report (A Grade)](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots/GTmetrix_Report.png?raw=true)
 
 **`Prerequisites`**
 
@@ -14,7 +14,7 @@ GTmetrix Report (A Grade, 96% Performance)
 **`IaC (Infrastructure as Code) for Provisioning of the Server on AWS`**
 
 IaC Code present in the brainstorm_IaC folder in the repo.
-![AWS_Server](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/provisioned%20server.png)
+![AWS_Server](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots/provisioned%20server.png)
 
 **`Wordpress Installation`**
 
@@ -35,7 +35,7 @@ IaC Code present in the brainstorm_IaC folder in the repo.
 * Certificate: /etc/letsencrypt/live/anurag.myddns.me/fullchain.pem
 * Key: /etc/letsencrypt/live/anurag.myddns.me/privkey.pem
 * Nginx Configuration File: /etc/nginx/sites-available/wordpress
- ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/brainstorm.com%20configuration%20nginx.png)
+ ![nginx.conf](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots/wordpress%20configuration%20nginx.png)
 
 **`Key Features`**
 
@@ -67,7 +67,7 @@ Obtain SSL Certificates:
 * sudo certbot --nginx -d anurag.myddns.me -d www.anurag.myddns.me
 
 WEBSITE: https://anurag.myddns.me
-![website](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots_Brainstorm/default%20page.png)
+![website](https://github.com/anuragsinghpundir/brainstorm/blob/master/Screenshots/default%20page.png)
 Default Page after Hosted on the server
 
 **`Test the Configuration:`**
